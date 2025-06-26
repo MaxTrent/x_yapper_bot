@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "ts-node bot/x-bot.ts"
+    "start": "ts-node bot/x-bot.ts",
+    "pm2": "pm2 start ecosystem.config.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -14,6 +15,7 @@
     "@types/node": "^20.4.5",
     "@types/node-cron": "^3.0.11",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "pm2": "^5.3.0"
   }
 }
