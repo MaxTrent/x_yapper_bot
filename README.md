@@ -1,4 +1,4 @@
-# X Bot for yapyo
+# X Bot for yapping
 
 Automated X bot that posts random content 5 times daily, always including "yapyo".
 
