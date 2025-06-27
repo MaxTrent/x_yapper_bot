@@ -1,6 +1,6 @@
 # X Bot for yapping
 
-Simple Automated X bot that posts random content 5 times daily, always including "yapyo".
+Simple Automated X bot that posts random content randomly daily, always including your keyword(token name).
 
 ## Setup
 
