@@ -57,8 +57,8 @@ async function postTweet() {
 // Schedule tweets
 cron.schedule('0 8,12,16,20,23 * * *', postTweet);
 
-console.log('🤖 X bot started!');
-console.log(`📝 Token name: ${TOKEN_NAME}`);
+console.log('X bot started!');
+console.log(`Token name: ${TOKEN_NAME}`);
 
 process.on('SIGINT', () => {
   console.log('Bot stopped');
